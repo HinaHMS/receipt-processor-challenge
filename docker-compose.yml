@@ -1,0 +1,6 @@
+services:
+  receipt-processor-challenge:
+    image: ${DOCKER_REGISTRY-}receiptprocessorchallenge
+    build:
+      context: .
+      dockerfile: receipt-processor-challenge/Dockerfile

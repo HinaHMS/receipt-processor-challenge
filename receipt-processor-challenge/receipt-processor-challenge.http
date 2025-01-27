@@ -1,0 +1,6 @@
+@receipt_processor_challenge_HostAddress = http://localhost:5108
+
+GET {{receipt_processor_challenge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
